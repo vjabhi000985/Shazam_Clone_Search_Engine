@@ -8,6 +8,8 @@ This project focuses on building **AI-powered search systems**, **audio-to-text 
 
 [Shazam Clone Search Engine](https://0789dd5d92321ee4c6.gradio.live/)
 
+- Note - URL is available for 72 hours only.
+
 ## Objective
 
 Develop an advanced search engine algorithm that efficiently retrieves subtitles based on user queries, leveraging natural language processing (NLP) and machine learning to enhance search relevance and accuracy.
