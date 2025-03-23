@@ -4,7 +4,9 @@
 
 This project focuses on building **AI-powered search systems**, **audio-to-text conversion**, and **interactive search applications**. It integrates **search engine technologies, vector embeddings, speech-to-text models, and subtitle processing** to enable efficient information retrieval and media analysis.
 
-## Deployment URL : `https://0789dd5d92321ee4c6.gradio.live/`
+## Deployment URL :
+
+[Shazam Clone Search Engine](https://0789dd5d92321ee4c6.gradio.live/)
 
 ## Objective
 
@@ -24,7 +26,7 @@ The search engine compares user queries against subtitle documents through these
 
 - Subset the dataset if compute resources are limited (e.g., use 30% of the data).
 
-#### 2. Generating Text Vectors
+### 2. Generating Text Vectors
 
 - Convert subtitle text into vector embeddings using different techniques:
 
@@ -32,17 +34,17 @@ The search engine compares user queries against subtitle documents through these
 
 - BERT-based SentenceTransformers → For semantic search.
 
-#### 3. Implementing a Document Chunker
+### 3. Implementing a Document Chunker
 
 - Break down large subtitles into smaller chunks to preserve context.
 
 - Use overlapping windows to prevent information loss.
 
-#### 4. Storing Embeddings in ChromaDB
+### 4. Storing Embeddings in ChromaDB
 
 - Store vector representations of subtitle chunks in ChromaDB for efficient retrieval.
 
-#### 5. Retrieving Documents Based on User Query
+### 5. Retrieving Documents Based on User Query
 
 - Convert user audio query to text (using AssemblyAI or other ASR models).
 - Vectorize the text query and compute cosine similarity between query and subtitle embeddings.
