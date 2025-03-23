@@ -1,0 +1,6 @@
+gradio
+assemblyai
+pydub
+python-dotenv
+chromadb
+sentence-transformers
