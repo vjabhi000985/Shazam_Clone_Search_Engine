@@ -6,9 +6,7 @@ This project focuses on building **AI-powered search systems**, **audio-to-text 
 
 ## Deployment URL :
 
-[Shazam Clone Search Engine](https://0789dd5d92321ee4c6.gradio.live/)
-
-- Note - URL is available for 72 hours only.
+[Shazam Clone Search Engine](https://huggingface.co/spaces/vjabhi000985/Shazam_Clone_Search_Engine)
 
 ## Objective
 
